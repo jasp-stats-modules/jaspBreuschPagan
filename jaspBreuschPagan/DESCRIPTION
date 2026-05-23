@@ -1,0 +1,25 @@
+Package: jaspBreuschPagan
+Type: Package
+Title: Breusch-Pagan Test Module for JASP
+Version: 0.1.0
+Date: 2026-05-21
+Author: Your Name
+Website: jasp-stats.org
+Maintainer: Your Name <you@example.com>
+Description: Performs the Breusch-Pagan test for heteroskedasticity in linear
+  regression. Fits the main regression, takes the squared residuals, runs the
+  auxiliary regression and reports the LM = n * R^2 statistic with its
+  chi-squared p-value. Both the studentized (Koenker) and the original (1979)
+  variants are available.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports:
+  jaspBase,
+  jaspGraphs,
+  ggplot2
+Suggests:
+  testthat,
+  lmtest
+Remotes:
+  jasp-stats/jaspBase,
+  jasp-stats/jaspGraphs

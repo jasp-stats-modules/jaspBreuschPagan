@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="none"/>
+  <line x1="10" y1="54" x2="58" y2="54" stroke="#333" stroke-width="2"/>
+  <line x1="10" y1="6"  x2="10" y2="54" stroke="#333" stroke-width="2"/>
+  <!-- funnel-shaped residual cloud suggesting heteroskedasticity -->
+  <circle cx="18" cy="34" r="2.2" fill="#3b78b0"/>
+  <circle cx="24" cy="30" r="2.2" fill="#3b78b0"/>
+  <circle cx="24" cy="38" r="2.2" fill="#3b78b0"/>
+  <circle cx="32" cy="26" r="2.2" fill="#3b78b0"/>
+  <circle cx="32" cy="42" r="2.2" fill="#3b78b0"/>
+  <circle cx="40" cy="20" r="2.2" fill="#3b78b0"/>
+  <circle cx="40" cy="48" r="2.2" fill="#3b78b0"/>
+  <circle cx="48" cy="14" r="2.2" fill="#3b78b0"/>
+  <circle cx="48" cy="52" r="2.2" fill="#3b78b0"/>
+  <line x1="14" y1="34" x2="54" y2="34" stroke="#cc4444" stroke-width="1.5" stroke-dasharray="3,3"/>
+</svg>

@@ -1,0 +1,12 @@
+name: Unit Tests
+
+on: [push, pull_request]
+
+jobs:
+  unittests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jasp-stats/jasp-actions/install-module@master
+      - name: Run unit tests
+        uses: jasp-stats/jasp-actions/unittests@master
